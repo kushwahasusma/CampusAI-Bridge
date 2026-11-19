@@ -1,0 +1,223 @@
+/* ===== GLOBAL ===== */
+
+body{
+  margin:0;
+  padding:0;
+  background:#f5f7fb;
+  font-family:'Segoe UI',sans-serif;
+}
+
+/* ===== DARK MODE ===== */
+
+.dark-mode{
+  background:#0f172a;
+  color:white;
+}
+
+.dark-mode .card{
+  background:#1e293b;
+  color:white;
+}
+
+.dark-mode .sidebar{
+  background:#111827;
+}
+
+.dark-mode .navbar-custom{
+  background:#1e293b;
+}
+
+/* ===== SIDEBAR ===== */
+
+.sidebar{
+  width:260px;
+  min-height:100vh;
+  background:white;
+  position:fixed;
+  left:0;
+  top:0;
+  padding:20px;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.sidebar h3{
+  color:#2563eb;
+  font-weight:700;
+}
+
+.sidebar .btn{
+  border:none;
+  border-radius:12px;
+  margin-bottom:10px;
+  padding:12px;
+  text-align:left;
+  font-weight:500;
+}
+
+.sidebar .btn:hover{
+  background:#2563eb;
+  color:white;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar-custom{
+  background:white;
+  padding:15px 25px;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(0,0,0,0.08);
+  margin-bottom:25px;
+}
+
+/* ===== HERO BANNER ===== */
+
+.hero-card{
+  background:linear-gradient(
+  135deg,
+  #2563eb,
+  #06b6d4);
+  
+  color:white;
+  
+  border-radius:20px;
+  
+  padding:30px;
+  
+  margin-bottom:25px;
+  
+  box-shadow:0 10px 30px
+  rgba(0,0,0,0.15);
+}
+
+.hero-card h1{
+  font-weight:700;
+}
+
+/* ===== STAT CARDS ===== */
+
+.stat-card{
+  border:none;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+  transition:.3s;
+}
+
+.stat-card:hover{
+  transform:translateY(-5px);
+}
+
+.stat-icon{
+  font-size:40px;
+}
+
+/* ===== FEATURE CARDS ===== */
+
+.feature-card{
+  border:none;
+  border-radius:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.feature-card h5{
+  font-weight:700;
+}
+
+/* ===== TABLE ===== */
+
+.table{
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.table thead{
+  background:#2563eb;
+  color:white;
+}
+
+/* ===== FORMS ===== */
+
+.form-control{
+  border-radius:12px;
+}
+
+.form-select{
+  border-radius:12px;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn-primary{
+  border:none;
+  border-radius:12px;
+  background:#2563eb;
+}
+
+.btn-success{
+  border:none;
+  border-radius:12px;
+}
+
+.btn-warning{
+  border:none;
+  border-radius:12px;
+}
+
+.btn-danger{
+  border:none;
+  border-radius:12px;
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+  margin-top:50px;
+  text-align:center;
+  color:#64748b;
+  border-top:1px solid #ddd;
+  padding:20px;
+}
+
+/* ===== CHART CARDS ===== */
+
+.chart-card{
+  background:white;
+  border-radius:20px;
+  padding:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+/* ===== LEADERBOARD ===== */
+
+.rank-gold{
+  color:gold;
+  font-size:35px;
+}
+
+.rank-silver{
+  color:silver;
+  font-size:35px;
+}
+
+.rank-bronze{
+  color:#cd7f32;
+  font-size:35px;
+}
+
+/* ===== ANIMATION ===== */
+
+.card{
+  animation:fadeIn .5s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
